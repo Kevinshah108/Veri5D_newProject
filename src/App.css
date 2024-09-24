@@ -1,0 +1,69 @@
+.home-img{
+    background-image: url(./assets/consultants.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 0;
+
+}
+
+@media only screen and (max-width: 635px){
+    .home-img{
+        background-size: 100%;
+        background-position-x: center;
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1536px){
+    .home-img{
+        background-size: 100%;
+        width:fit-content;
+    }
+}
+
+
+.pin{
+    background: #4362f8;
+    width: 0.7em;
+    height: 0.7em;
+    border-radius: 50%;
+}
+
+.pin::before {
+    content: '';
+    background: #4362f8;
+    top: 0%;
+    left: 0%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    animation: pulse 1.3s ease-in-out infinite;
+}
+
+.pin span {
+    display: inline-block;
+    white-space: nowrap;
+    left: 1.5em;
+    color: #000000;
+    top: 0%;
+    transform: translateY(-50%);
+    background: #fff;
+    border-radius: 3em;
+    padding: 0.3em 0.6em;
+    font-size: 0.9em;
+}
+
+@keyframes pulse {
+    100% {
+        opacity: 0;
+        transform: translate(-50%, -50%) scale(2.5);
+    }
+}
+
+.WorldMap{
+    size: 100%;
+    height: 100%;
+    margin-top: -25px;
+}
+
+

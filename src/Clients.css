@@ -1,0 +1,177 @@
+/* Clients.css */
+
+/* Base styles for pins */
+.pin {
+  position: absolute;
+  background-color: blue;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+/* Position adjustments for small screens */
+@media (max-width: 375px) {
+  .pin.vadodara {
+    font-size: 7px;
+    top: 107px;
+    left: 200px;
+  }
+  .pin.chennai {
+    font-size: 7px;
+    top: 133px;
+    left: 210px;
+  }
+  .pin.abudhabi {
+    font-size: 7px;
+    top: 117px;
+    left: 187px;
+  }
+  .pin.saudiarabia {
+    font-size: 7px;
+    top: 125px;
+    left: 185px;
+  }
+  .pin.egypt {
+    font-size: 7px;
+    top: 115px;
+    left: 168px;
+  }
+  .pin.nigeria {
+    font-size: 7px;
+    top: 130px;
+    left: 150px;
+  }
+}
+
+
+
+
+/* Position adjustments for medium mobile screens */
+@media (min-width: 376px) and (max-width: 575px) {
+  .pin.vadodara {
+    font-size: 8px;
+    top: 170px;
+    left: 280px;
+  }
+  .pin.chennai {
+    font-size: 8px;
+    top: 197px;
+    left: 290px;
+  }
+  .pin.abudhabi {
+    font-size: 8px;
+    top: 180px;
+    left: 255px;
+  }
+  .pin.saudiarabia {
+    font-size: 8px;
+    top: 190px;
+    left: 251px;
+  }
+  .pin.egypt {
+    font-size: 8px;
+    top: 170px;
+    left: 230px;
+  }
+  .pin.nigeria {
+    font-size: 8px;
+    top: 200px;
+    left: 200px;
+  }
+}
+
+/* Position adjustments for large mobile screens */
+@media (min-width: 576px) and (max-width: 767px) {
+  .pin.vadodara {
+    font-size: 9px;
+    top: 170px;
+    left: 230px;
+  }
+  .pin.chennai {
+    font-size: 9px;
+    top: 200px;
+    left: 260px;
+  }
+  .pin.abudhabi {
+    font-size: 9px;
+    top: 180px;
+    left: 220px;
+  }
+  .pin.saudiarabia {
+    font-size: 9px;
+    top: 190px;
+    left: 210px;
+  }
+  .pin.egypt {
+    font-size: 9px;
+    top: 170px;
+    left: 190px;
+  }
+  .pin.nigeria {
+    font-size: 9px;
+    top: 190px;
+    left: 170px;
+  }
+}
+
+/* Position adjustments for tablets */
+@media (min-width: 768px) and (max-width: 991px) {
+  .pin.vadodara {
+    font-size: 10px;
+    top: 300px;
+    left: 500px;
+  }
+  .pin.chennai {
+    font-size: 10px;
+    top: 340px;
+    left: 530px;
+  }
+  .pin.abudhabi {
+    font-size: 10px;
+    top: 320px;
+    left: 470px;
+  }
+  .pin.saudiarabia {
+    font-size: 10px;
+    top: 338px;
+    left: 455px;
+  }
+  .pin.egypt {
+    font-size: 10px;
+    top: 305px;
+    left: 420px;
+  }
+  .pin.nigeria {
+    font-size: 10px;
+    top:350px;
+    left: 370px;
+  }
+}
+
+/* Position adjustments for larger screens */
+@media (min-width: 992px) {
+  .pin.vadodara {
+    margin-left: 180px;
+    margin-top: 170px;
+  }
+  .pin.chennai {
+    margin-left: 200px;
+    margin-top: 200px;
+  }
+  .pin.abudhabi {
+    margin-left: 130px;
+    margin-top: 175px;
+  }
+  .pin.saudiarabia {
+    margin-left: 100px;
+    margin-top: 180px;
+  }
+  .pin.egypt {
+    margin-left: 50px;
+    margin-top: 164px;
+  }
+  .pin.nigeria {
+    margin-left: 0px;
+    margin-top: 200px;
+  }
+}

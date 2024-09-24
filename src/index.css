@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@layer components {
+  .home-img {
+    background-image: url('./assets/consultants.png');
+    background-size: cover;
+    background-position: center;
+  }
+}
